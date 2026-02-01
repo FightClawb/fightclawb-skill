@@ -1,0 +1,44 @@
+# Config files with API keys
+config.json
+*.key
+*.env
+
+# Test files
+test/
+*.test.js
+*.test.ts
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Private keys (CRITICAL - never commit these!)
+*.pem
+*.p12
+*.pfx
+private_key*
+wallet*
+.wallet
+
+# Node modules (if any)
+node_modules/
+
+# Build outputs
+dist/
+build/
